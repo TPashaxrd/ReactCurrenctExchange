@@ -1,0 +1,81 @@
+.currency-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 450px;
+    height: 200px;
+    background-image: url('https://www.wallpaperflare.com/static/1017/225/209/background-money-dollar-currency-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.currency-div h3 {
+ font-family: 'Ubuntu Mono', sans-serif;
+}
+.amount,
+.result {
+ width: 80px;
+ height: 25px;
+ margin-right: 10px;
+}
+
+.from-currency-option {
+ width: 70px;
+ height: 30px;
+ margin-right: 10px;
+}
+
+.to-currency-option {
+ width: 70px;
+ height: 30px;
+ margin-right: 10px;
+}
+
+.exchange-button {
+ width: 80px;
+ transition: background-color 0.5s ease;
+ height: 30px;
+ background-color: 101114;
+ color: black;
+ border: none;
+ border-radius: 5px;
+ margin-top: 15px;
+ cursor: pointer;
+}
+.exchange-button:hover {
+ background-color: #101413;
+ transition: background-color 0.5s ease;
+ color: white;
+}
+.exchange-button:focus {
+ background-color: rgb(187, 207, 199);
+ transition: background-color 0.5s ease;
+
+}
+
+.input-cam {
+    background: rgba(255, 255, 255, 0.1); /* Yarı saydam beyaz arka plan */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    color: white; 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .amount {
+    font-family: 'Roboto Mono', serif;;
+
+}
+  .result {
+    font-family: 'Ubuntu Mono', monospace;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    color: white; 
+    border-radius: 15px;
+  
+}
