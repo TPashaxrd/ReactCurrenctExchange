@@ -4,7 +4,9 @@ import { HiArrowsRightLeft } from "react-icons/hi2";
 import axios from 'axios';
 
 let BASE_URL = "https://api.freecurrencyapi.com/v1/latest";
-let API_KEY = "fca_live_QOxVfW1cUsFbYEObPwnmUhpVrwGQe2vaBAcrtKpS";
+let API_KEY = "your_freeAPI_key";
+//1) Go freecurrencyapi.com to register.
+// and take your API
 
 const Currency = () => {
     
