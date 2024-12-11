@@ -6,10 +6,10 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/194/35/725/green-money-dollars-100-wallpaper-preview.jpg');
+    background-image: url('https://c1.wallpaperflare.com/preview/37/84/955/dollar-banknote-united-states-january-1-dollar.jpg');
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
 }
 
 ::-webkit-scrollbar {
@@ -19,4 +19,16 @@ body {
 ::-webkit-scrollbar-thumb {
     color: black;
     background-color: black;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url('https://c4.wallpaperflare.com/wallpaper/194/35/725/green-money-dollars-100-wallpaper-preview.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }

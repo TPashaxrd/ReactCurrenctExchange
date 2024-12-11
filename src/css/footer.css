@@ -1,0 +1,49 @@
+.footer {
+    background-image: url('https://www.marketplace.org/wp-content/uploads/2023/04/USdollar.jpg?w=600');
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.footer a {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2px 2px 2px;
+    color: #101114;
+    font-family: 'Ubuntu Mono', monospace; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.footer a:hover {
+    text-decoration: none; 
+}
+
+.footer p {
+    font-family: 'Roboto Mono', serif;
+    margin: 0; 
+}
+.footer p:hover {
+    text-decoration: none;
+}
+
+.nivesoft {
+    text-align: center;
+    padding: 25px 0;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDbmg1pXgHS6lOH2Ms-9Tm35FURLRwh9-81pf8n788BRQq_NESQlp823ztuUuenxn6kw&usqp=CAU');
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .nivesoft {
+        display: none; /* Bu stil, 768px ve altındaki ekranlarda nivesoft elementini gizler */
+    }
+}

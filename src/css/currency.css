@@ -1,18 +1,41 @@
 .currency-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+  border: 1px solid black;
+  width: 60%;
+  height: 400px;
+  background-image: url('https://www.wallpaperflare.com/static/1017/225/209/background-money-dollar-currency-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+} 
+
+@media (max-width: 768px) {
+  .currency-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 50px;
+    margin-top: 250px;
     border: 1px solid black;
-    width: 450px;
-    height: 200px;
+    width: 95%;
+    height: auto;
     background-image: url('https://www.wallpaperflare.com/static/1017/225/209/background-money-dollar-currency-wallpaper.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    position: absolute; /* Ekranın sabit bir yerine yerleştiriyoruz */
+
+  }
+  
 }
+
+
 .currency-div h3 {
  font-family: 'Ubuntu Mono', sans-serif;
 }
