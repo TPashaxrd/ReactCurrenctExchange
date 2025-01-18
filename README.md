@@ -1,3 +1,4 @@
+# NOT: API KEY'I ALMADAN BAĞLARSANIZ ÇALIŞMAZ.
 
 # React Currency Exchange
 
